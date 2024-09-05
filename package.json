@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf web",
+    "deploy": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m 'Update resume' && git push origin gh-pages && git checkout master",
     "prebuild": "npm run clean",
     "build": "node .",
     "postbuild": "git restore docs/CNAME",
     "eslint": "eslint",
     "nodemon": "nodemon",
-    "publish": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m 'Update resume' && git push origin gh-pages && git checkout master",
     "resume": "resume",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon --watch src ."

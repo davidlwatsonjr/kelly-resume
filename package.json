@@ -1,0 +1,40 @@
+{
+  "name": "kelly-hayn-resumes",
+  "version": "1.0.0",
+  "description": "My resume(s) as JSON files, to be built by resume-cli.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf web",
+    "prebuild": "npm run clean",
+    "build": "node .",
+    "eslint": "eslint",
+    "nodemon": "nodemon",
+    "resume": "resume",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch src ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/davidlwatsonjr/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/davidlwatsonjr/resume/issues"
+  },
+  "homepage": "https://gitlab.com/davidlwatsonjr/resume#README",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-short": "^0.1.7",
+    "resume-cli": "^0.4.19"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.5",
+    "rimraf": "^2.6.2"
+  }
+}

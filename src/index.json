@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "Kelly Hayn",
+    "label": "Assistant Director of Animal Operations",
+    "summary":
+      "Kelly is a dedicated Animal Care Director with 15+ years experience in animal husbandry, training, and welfare. She has extensive knowledge in a wide variety of taxa and is adept at handling potentially dangerous animals with sensitivity and efficiency. She is an expert in guest relations and is accomplished at motivating staff in a team environment, often in a volunteer setting with a strong background in both for-profit and non-profit organizations.",
+    "website": "https://resume.kellyhayn.com",
+    "email": "resume@kellyhayn.com",
+    "profiles": [],
+    "location": {
+      "city": "Orlando",
+      "countryCode": "US",
+      "region": "Florida"
+    }
+  },
+  "skills": [],
+  "work": [
+    {
+      "name": "The C.A.R.E. Foundation",
+      "company": "The C.A.R.E. Foundation",
+      "position": "Assistant Director of Animal Operations ",
+      "startDate": "2009-04-01",
+      "endDate": "Current",
+      "highlights": [
+        "Oversaw daily care of sanctuary animals, including habitat maintenance, feeding, behavioral observation, medication administration, husbandry and enrichment programs",
+        "Conducted on and off property educational programs with animal ambassadors, providing guests of all ages with up close and personal animal experiences and extensive knowledge of animal conservation and welfare",
+        "Trained all new incoming volunteers as well as provided guidance to existing volunteers, encouraging a team environment with innovative thinking and compassionate care for the animals ",
+        "Oversaw expansion of social media presence with focus on community engagement and fundraising efforts",
+        "Built and maintained strong business relationships with active donors and sponsors, resulting in increased donations and sponsorships",
+        "Developed new fundraising ideas in addition to planning and coordinating large scale fundraising events and campaigns"
+      ]
+    },
+    {
+      "name": "Birds and Animals Unlimited",
+      "company": "Birds and Animals Unlimited",
+      "position": "Assistant Manager/Senior Trainer",
+      "startDate": "2009-04-01",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "Applied operant conditioning to train a wide variety of animals for both live stage settings as well as movie production settings",
+        "Performed live entertainment experiences for audiences of over 2,000 guests in both formal and informal settings",
+        "Demonstrated strong partnering skills and team building during training projects and creative show presentation development",
+        "Efficiently performed all necessary daily tasks, including data keeping regarding behavior and nutrition, enrichment, medication administration, husbandry, and training of animals",
+        "Acted as liaison for USDA and FWC facility inspections and record keeping"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Advanced ABC Animal Training Certification",
+      "issuer": "ABC Animal Training",
+      "date": "2020-06-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Delaware",
+      "area": "Psychology and Criminal Science",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2002-08-01",
+      "endDate": "2006-05-01"
+    }
+  ]
+}

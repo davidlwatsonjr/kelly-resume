@@ -4,8 +4,8 @@
   "description": "My resume(s) as JSON files, to be built by resume-cli.",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf web",
-    "deploy": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m 'Update resume' && git push origin gh-pages && git checkout master",
+    "clean": "rimraf docs",
+    "deploy": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m \"Update resume\" && git push origin gh-pages && git checkout master",
     "prebuild": "npm run clean",
     "build": "node .",
     "postbuild": "git restore docs/CNAME",

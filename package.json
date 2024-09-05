@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf docs",
-    "predeploy": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m \"Update resume\"",
+    "predeploy": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m \"Update resume\" || echo \"No changes to commit. Continuing with deploy.\"",
     "deploy": "git push origin gh-pages",
     "postdeploy": "git checkout master",
     "prebuild": "npm run clean",

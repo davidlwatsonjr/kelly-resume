@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf docs",
+    "deploy": "git checkout gh-pages && git merge master && npm run build && git add -A && git commit -m 'Update resume' && git push origin gh-pages && git checkout master",
     "prebuild": "npm run clean",
     "build": "node .",
+    "postbuild": "git restore docs/CNAME",
     "eslint": "eslint",
     "nodemon": "nodemon",
     "resume": "resume",

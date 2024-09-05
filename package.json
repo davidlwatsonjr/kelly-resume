@@ -4,7 +4,7 @@
   "description": "My resume(s) as JSON files, to be built by resume-cli.",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf web",
+    "clean": "rimraf docs",
     "prebuild": "npm run clean",
     "build": "node .",
     "eslint": "eslint",

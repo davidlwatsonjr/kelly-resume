@@ -3,7 +3,7 @@ const glob = require('glob');
 const resume = require('resume-cli/lib');
 
 const SOURCE_DIR = 'src';
-const DEST_DIR = 'web';
+const DEST_DIR = 'docs';
 const DEST_FORMAT = 'html';
 const THEMES = ['elegant', 'flat', 'short'];
 const DEFAULT_THEME = 'elegant';

@@ -1,5 +1,5 @@
 {
-  "name": "kelly-hayn-resumes",
+  "name": "kelly-hayn-resume",
   "version": "1.0.0",
   "description": "My resume(s) as JSON files, to be built by resume-cli.",
   "main": "index.js",
@@ -19,14 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/davidlwatsonjr/resume.git"
+    "url": "git+ssh://git@gitlab.com/davidlwatsonjr/kelly-resume.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/davidlwatsonjr/resume/issues"
-  },
-  "homepage": "https://gitlab.com/davidlwatsonjr/resume#README",
+  "homepage": "https://resume.kellyhayn.com",
   "dependencies": {
     "glob": "^7.1.2",
     "jsonresume-theme-elegant": "^1.16.1",
